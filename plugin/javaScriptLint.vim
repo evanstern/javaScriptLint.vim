@@ -17,7 +17,7 @@ endif
 
 if !exists("jslint_command_options")
 "  let jslint_command_options = '--nofilelisting --nocontext --nosummary --nologo --process'
-  let jslint_command_options = '--nofilelisting --nosummary --nologo --conf=.jslconf'
+  let jslint_command_options = '--nofilelisting --nosummary --nologo --conf=/home/evan/.jslconf'
 
 endif
 
